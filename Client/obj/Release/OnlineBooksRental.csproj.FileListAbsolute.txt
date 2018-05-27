@@ -1,0 +1,15 @@
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\bin\Website.dll
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\bin\Website.pdb
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\bin\EntityFramework.dll
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\bin\HelperLibrary.dll
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\bin\SRVTextToImage.dll
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\bin\HelperLibrary.pdb
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\bin\EntityFramework.xml
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\obj\Release\OnlineBooksRental.csprojResolveAssemblyReference.cache
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\obj\Release\Website.dll
+C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website\obj\Release\Website.pdb
+E:\satish\Website\bin\Website.dll
+E:\satish\Website\bin\Website.pdb
+E:\satish\Website\obj\Release\OnlineBooksRental.csprojResolveAssemblyReference.cache
+E:\satish\Website\obj\Release\Website.dll
+E:\satish\Website\obj\Release\Website.pdb

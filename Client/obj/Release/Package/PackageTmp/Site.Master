@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Website.Site" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="img/icon/home-128.gif" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/ionicons.min.css" rel="stylesheet" />
+    <link href="../Content/sticky-header-navbar.css" rel="stylesheet" />
+    <link href="../Content/sticky-footer-navbar.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <nav class="navbar navbar-expand-lg">
+                <img src="../img/logo.png" alt="test" />
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar ion-android-menu"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Index.aspx" style="text-decoration: none"><span class="ion-ios-home">&nbsp; HOME</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a id="applybook" class="nav-link text-white" href="Books.aspx"><span class="ion-ios-book">&nbsp; Apply for Books</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="help.aspx"><span class="ion-help-buoy">&nbsp; Help</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contactus.aspx"><span class="ion-android-contacts">&nbsp;Contact US</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="aboutus.aspx"><span class="ion-information-circled">&nbsp; About Us</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <asp:Label ID="Welcome" runat="server" Text="Welcome: " ForeColor="White" Font-Bold="true"></asp:Label>
+                &nbsp;
+                    <asp:LinkButton ID="Logout" runat="server" OnClick="Logout_Click" Font-Bold="true" ForeColor="#ff0066">Logout</asp:LinkButton>
+            </nav>
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <footer class="footer">
+                <a class="" href="#"><span class="text-muted">© 2018 Sindu Youth Circle, Kota | Developed By : Nitin Sharma</span></a>
+                <div class="pull-left" style="float: right">
+                    <a class="" href="https://www.facebook.com/pg/SindhuYouthCircle/about/?ref=page_internal" target="_blank"><span class="ion-social-facebook">&nbsp;</span></a>
+                    <a class="" href="#"><span class="ion-social-instagram">&nbsp;</span></a>
+                    <a class="" href="#"><span class="ion-social-twitter">&nbsp;</span></a>
+                    <a class="" href="http://sindhuyouthcirclekota.blogspot.in/" target="_blank"><span class="ion-social-rss">&nbsp;</span></a>
+                    <a class="" href="https://www.youtube.com/watch?v=1QGEU_qfDRU" target="_blank"><span class="ion-social-youtube">&nbsp;</span></a>
+                    <a class="" href="#"><span class="ion-map">&nbsp;</span></a>
+                </div>
+            </footer>
+        </div>
+        <script src="../Scripts/jquery-3.0.0.min.js"></script>
+        <script src="../Scripts/bootstrap.min.js"></script>
+    </form>
+
+</body>
+</html>

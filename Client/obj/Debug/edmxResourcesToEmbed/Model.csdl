@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="employees" EntityType="Model.employee" />
+    <EntitySet Name="clients" EntityType="Model.client" />
+    <EntitySet Name="Entity1" EntityType="Model.Entity1" />
+  </EntityContainer>
+  <EntityType Name="employee">
+    <Key>
+      <PropertyRef Name="pkidemployee" />
+    </Key>
+    <Property Type="Int32" Name="pkidemployee" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" />
+    <Property Type="String" Name="address" Nullable="false" />
+    <Property Type="String" Name="emailid" Nullable="false" />
+    <Property Type="String" Name="mobile" Nullable="false" />
+    <Property Type="String" Name="login" Nullable="false" />
+    <Property Type="String" Name="password" Nullable="false" />
+  </EntityType>
+  <EntityType Name="client">
+    <Key>
+      <PropertyRef Name="pkidclient" />
+    </Key>
+    <Property Type="Int32" Name="pkidclient" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="firstname" Nullable="false" />
+    <Property Type="String" Name="middlename" Nullable="false" />
+    <Property Type="String" Name="lastname" Nullable="false" />
+    <Property Type="String" Name="address" Nullable="false" />
+    <Property Type="String" Name="mobile" Nullable="false" />
+    <Property Type="String" Name="emailid" Nullable="false" />
+    <Property Type="String" Name="login" Nullable="false" />
+    <Property Type="String" Name="password" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Entity1">
+    <Property Type="String" Name="fkidclient" Nullable="false" />
+    <Property Type="String" Name="Property1" Nullable="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="someting" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="AppHostConfig" match="^Website$" />
+    <parameterEntry kind="ProviderPath" scope="contentPath" match="^C:\\Users\\Nitin\ sharma\\Documents\\Visual\ Studio\ 2012\\Projects\\Sindhu\\Website\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Nitin\ sharma\\Documents\\Visual\ Studio\ 2012\\Projects\\Sindhu\\Website\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="IIS Web Application Pool Name" description="" value="ASP.NET v4.0" tags="">
+    <parameterEntry kind="DeploymentObjectAttribute" scope="application" match="application[@applicationPool='Clr4IntegratedAppPool']/@applicationPool" />
+  </parameter>
+  <parameter name="IisVirtualDirectoryPhysicalPath" description="" value="C:\Users\Nitin sharma\Documents\Visual Studio 2012\Projects\Sindhu\Website_deploy" tags="PhysicalPath">
+    <parameterEntry kind="DestinationVirtualDirectory" scope=".*" match="^C:\\Users\\Nitin\ sharma\\Documents\\Visual\ Studio\ 2012\\Projects\\Sindhu\\Website$" />
+  </parameter>
+  <parameter name="CN-Web.config Connection String" description="" value="Data Source=.; Initial Catalog= website; User Id= sa;Password=sql#2008" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nitin\ sharma\\Documents\\Visual\ Studio\ 2012\\Projects\\Sindhu\\Website\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CN']/@connectionString" />
+  </parameter>
+</parameters>

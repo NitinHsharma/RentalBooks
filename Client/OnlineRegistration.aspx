@@ -67,7 +67,7 @@
                 <hr />
                 <div class="form-group row">
                     <label for="text" class="col-md-3 col-form-label font-weight-bold">No. of family Members:<span class="ion-android-star" style="color: red"></span></label>
-                    <asp:TextBox ID="txtfamilyno" CssClass="col-md-2 form-control" runat="server" TextMode="Number" required />
+                    <asp:TextBox ID="txtfamilyno" CssClass="col-md-2 form-control" runat="server" TextMode="Number" min="0" required />
                     <label for="ownrent" class="col-sm-3 col-form-label font-weight-bold">Own House or Rent:<span class="ion-android-star" style="color: red"></span></label>
                     <%--<asp:TextBox ID="txtownrenthouse" runat="server" PlaceHolder="Rent/Own" CssClass="col-md-2 form-control" required></asp:TextBox>--%>
                     <asp:DropDownList ID="txtownrenthouse" runat="server" CssClass="col-md-2 form-control" required>
